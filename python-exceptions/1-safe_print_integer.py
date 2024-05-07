@@ -5,3 +5,4 @@ def safe_print_integer(value):
         return isinstance(value, int)
     except (ValueError, TypeError):
         return False
+    return True
