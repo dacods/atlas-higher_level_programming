@@ -9,7 +9,6 @@ def text_indentation(text):
 
     punctuations = ['.', '?', ':']
     lines = []
-    line = ''
 
     for char in text:
         line += char
