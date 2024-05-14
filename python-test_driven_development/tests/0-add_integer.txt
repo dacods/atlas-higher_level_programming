@@ -23,7 +23,7 @@
 1
 
 # Check type Test
->>>add_integer("word", 9)
+>>> add_integer("word", 9)
 Traceback (most recent call last)
     ...
 TypeError: a must be an integer
