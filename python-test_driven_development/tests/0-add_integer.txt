@@ -6,9 +6,13 @@
 >>> add_integer(9, 10)
 19
 
-negative Test
+# negative Test
 >>> add_integer(9, -1)
 8
+
+# single value Test
+>>> add_integer(8)
+0
 
 # float Test
 >>> add_integer(6.9, 2.1)
