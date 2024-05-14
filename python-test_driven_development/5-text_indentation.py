@@ -11,12 +11,10 @@ def text_indentation(text):
     lines = []
 
     for char in text:
-        line += char
+        empty_str += char
         if char in punctuations:
-            lines.append(line.strip())
-
-    if line:
-        lines.append(line.strip())
-
-    for line in lines:
-        print("{}".format(line))
+            print(empty_str.strip())
+            print()
+            empty_str = ""
+        if empty_str.strip():
+            print(empty_str.strip(), end="")
