@@ -5,3 +5,9 @@
 # both string Test
 >>> say_my_name("first", "last")
 My name is first last
+
+# one string Test
+>>> say_my_name("first", 3)
+Traceback (most recent call last):
+    ...
+TypeError: last_name must be a string
