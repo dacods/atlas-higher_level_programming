@@ -8,7 +8,7 @@ def text_indentation(text):
         raise TypeError("text must be a string")
 
     punctuations = ['.', '?', ':']
-    lines = []
+    empty_str = ""
 
     for char in text:
         empty_str += char
