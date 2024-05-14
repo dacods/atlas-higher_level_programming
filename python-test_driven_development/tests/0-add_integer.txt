@@ -28,14 +28,8 @@ Traceback (most recent call last):
     ...
 TypeError: a must be an integer
 
-# check type Test two
->>> add_integer(9, "word")
+# overflow Test
+>>> add_integer(1e308, 1e308)
 Traceback (most recent call last):
     ...
-TypeError: b must be an integer
-
-# check type Test three
->>> add_integer("another", "word")
-Traceback (most recent call last):
-    ...
-TypeError: a must be an integer
+OverflowError: intger addition result too large
