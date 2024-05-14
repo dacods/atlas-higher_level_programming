@@ -49,7 +49,7 @@ class Rectangle:
         rect = ""
         for i in range(self.height):
             rect += "#" * self.width
-            if rect < self.height - 1:
+            if i < self.height - 1:
                 rect += "\n"
         return rect
     
