@@ -11,3 +11,12 @@ A word
 Traceback (most recent call last):
     ...
 TypeError: text must be a string
+
+# line Test
+>>> text_indentation("My        name        is.")
+My
+<BLANKLINE>
+name
+<BLANKLINE>
+is.
+<BLANKLINE>
