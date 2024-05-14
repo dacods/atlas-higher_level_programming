@@ -21,3 +21,9 @@
 # casting  Test
 >>> add_integer(1.9, 0.3)
 1
+
+# Check type Test
+>>>add_integer("word", 9)
+Traceback (most recent call last)
+    ...
+TypeError: a must be an integer
