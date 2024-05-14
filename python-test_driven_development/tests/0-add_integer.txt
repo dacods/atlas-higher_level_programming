@@ -12,7 +12,7 @@
 
 # single value Test
 >>> add_integer(8)
-0
+106
 
 # float Test
 >>> add_integer(6.9, 2.1)
