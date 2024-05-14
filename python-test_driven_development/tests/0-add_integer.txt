@@ -15,5 +15,9 @@
 104
 
 # float Test
->>> add_integer(1.5, 3.1)
+>>> add_integer(1.5, 3)
 4
+
+# casting  Test
+>>> add_integer(1.9, 0.3)
+1
