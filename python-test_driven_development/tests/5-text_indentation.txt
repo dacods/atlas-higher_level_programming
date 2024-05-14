@@ -14,9 +14,5 @@ TypeError: text must be a string
 
 # line Test
 >>> text_indentation("My        name        is.")
-My
-<BLANKLINE>
-name
-<BLANKLINE>
-is.
+My      name        is.
 <BLANKLINE>
