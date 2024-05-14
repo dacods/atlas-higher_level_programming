@@ -8,4 +8,4 @@
 
 # casting Test
 >>> add_integer(6.9, 2.1)
-9
+8
