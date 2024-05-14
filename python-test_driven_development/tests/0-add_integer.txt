@@ -5,3 +5,7 @@
 # positive Test
 >>> add_integer(9, 10)
 19
+
+# casting Test
+>>> add_integer(6.9, 2.1)
+9
