@@ -5,3 +5,7 @@
 # positive Test
 >>> add_integer(9, 10)
 19
+
+#negative Test
+>>> add_integer(65, -5)
+60
