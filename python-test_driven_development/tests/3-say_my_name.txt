@@ -11,3 +11,9 @@ My name is first last
 Traceback (most recent call last):
     ...
 TypeError: last_name must be a string
+
+# one string Test two
+>>> say_my_name(3, "last")
+Traceback (most recent call last):
+    ...
+TypeError: first_name must be a string
