@@ -16,7 +16,6 @@ def text_indentation(text):
         if char in punctuations:
             lines.append(line.strip())
             lines.append('')
-            line = ''
 
     if line:
         lines.append(line.strip())
