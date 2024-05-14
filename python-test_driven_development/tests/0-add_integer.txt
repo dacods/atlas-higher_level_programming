@@ -1,7 +1,7 @@
-# Testing 0-add_integers
+# Testing 0-add_integer
 
->>> add_integers = __import__('0-add_integer').add_integers
+>>> add_integer = __import__('0-add_integer').add_integer
 
 # positive Test
->>> add_integers(9, 10)
+>>> add_integer(9, 10)
 19
