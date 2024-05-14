@@ -4,4 +4,4 @@
 
 # both string Test
 >>> say_my_name("first", "last")
-my name is first last
+my name is first last 
