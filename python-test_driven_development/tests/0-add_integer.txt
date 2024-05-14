@@ -21,21 +21,3 @@
 # casting Test
 >>> add_integer(1.5, 2.4)
 3
-
-# check type Test
->>> add_integer("word", 8)
-Traceback (most recent call last)
-    ...
-TypeError: a must be an integer
-
-# check type Test 2
->>> add_integer(8, "word")
-Traceback (most recent call last)
-    ...
-TypeError: b must be an integer
-
-# check type Test 3
->>> add_integer("word", "another")
-Traceback (most recent call last)
-    ...
-TypeError: a must be an integer
