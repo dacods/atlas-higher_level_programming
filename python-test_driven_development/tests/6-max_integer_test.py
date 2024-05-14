@@ -15,7 +15,7 @@ class Maxtest(unittest.TestCase):
 
     def testing_max_at_middle(self):
         """Testing at middle"""
-        self.assertEqual(max_integer([1, 2, 3, 4]), 4)
+        self.assertEqual(max_integer([1, 4, 3, 2]), 4)
 
     def testing_with_one_int(self):
         """Testing with one element"""
