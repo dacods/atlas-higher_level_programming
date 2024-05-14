@@ -2,3 +2,6 @@
 
 >>> text_indentation = __import__('5-text_indentation').text_indentation
 
+# normal Test
+>>> text_indentation("A word")
+A word
