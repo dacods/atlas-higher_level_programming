@@ -24,6 +24,6 @@
 
 # Check type Test
 >>> add_integer("word", 9)
-Traceback (most recent call last)
+Traceback (most recent call last):
     ...
 TypeError: a must be an integer
