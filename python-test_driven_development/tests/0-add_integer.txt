@@ -6,6 +6,10 @@
 >>> add_integer(9, 10)
 19
 
-#negative Test
+# negative Test
 >>> add_integer(65, -5)
 60
+
+# one integer Test
+>>> add_integer(6)
+104
