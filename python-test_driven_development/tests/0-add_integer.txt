@@ -9,3 +9,11 @@
 # casting Test
 >>> add_integer(6.9, 2.1)
 8
+
+# check type Test
+>>> add_integer("word", 8)
+TypeError: a must be an integer
+
+# check type Test 2
+>>> add_integer(8, "word")
+TypeError: b must be an integer
