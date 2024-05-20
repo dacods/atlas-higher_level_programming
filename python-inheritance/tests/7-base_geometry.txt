@@ -5,5 +5,5 @@
 
 >>> base_geo.integer_validator("word", -10)
 Traceback (most recent call last):
-    ...
+...
 ValueError: number must be greater than 0
