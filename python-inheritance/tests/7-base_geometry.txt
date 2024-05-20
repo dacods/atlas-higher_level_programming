@@ -7,3 +7,13 @@
 Traceback (most recent call last):
     ...
 TypeError: size must be an integer
+
+>>> base_geo.integer_validator("length", "word")
+Traceback (most recent call last):
+    ...
+TypeError: length must be an integer
+
+>>> base_geo.integer_validator("number", -10)
+Traceback (most recent call last):
+    ...
+ValueError: number must be greater than 0
