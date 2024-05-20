@@ -5,6 +5,8 @@ import json
 
 def load_from_json_file(filename):
     """Creates an object from a JSON file"""
-    with open(filename, 'x') as file:
-        x = json.loads(file)
-    return x
+    try:
+        with open(filename, mode='x') as file:
+            file.write(filename)
+    except FileExistsError:
+        pass
