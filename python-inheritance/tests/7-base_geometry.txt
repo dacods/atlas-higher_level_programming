@@ -2,3 +2,8 @@
 
 >>> base_geo = BaseGeometry()
 >>> base_geo.integer_validator("word", 10)
+
+>>> base_geo.integer_validator("size", 2.3)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
