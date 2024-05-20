@@ -6,4 +6,4 @@ def write_file(filename="", text=""):
     """Function that writes a string to a text file and
     returns the number of characters written"""
     with open(filename, 'w') as text:
-        print("{}".format(text))
+        print("{}".format(text), file=text)
