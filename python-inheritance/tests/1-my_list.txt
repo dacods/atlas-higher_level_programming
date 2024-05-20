@@ -1,4 +1,2 @@
-# Testing 1-my_list
-
->>> print_sorted = __import__('1-my_list').print_sorted
+>>> Mylist = __import__('1-my_list').Mylist
 
