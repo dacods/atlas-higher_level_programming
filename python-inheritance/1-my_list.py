@@ -2,7 +2,7 @@
 """ Define a module """
 
 
-class Mylist(list):
+class MyList(list):
     """ Defines a class """
     def print_sorted(self):
         """ Prints a sorted list """
