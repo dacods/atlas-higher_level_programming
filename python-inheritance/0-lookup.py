@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """Return the list"""
-    return obj[:]
+    print(dir(obj))
