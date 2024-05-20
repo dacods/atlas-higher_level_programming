@@ -5,6 +5,5 @@ import json
 
 def to_json_string(my_obj):
     """Returns the JSON representation of an object"""
-    decoder = json.JSONDecoder()
-    data = decoder.decode(my_obj)
+    data = json.dumps(my_obj, indent=4)
     return data
