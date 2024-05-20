@@ -7,3 +7,4 @@ def append_write(filename="", text=""):
     returns the number of characters"""
     with open(filename, 'a') as file:
         file.write(text)
+    return len(text)
