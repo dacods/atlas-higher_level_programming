@@ -4,8 +4,7 @@
 
 class Base:
     """Defines a class"""
-    def __init__(self):
-        self.__nb_objects = 0
+    __nb_objects = 0
 
     def __init__(self, id=None):
         if id is not None:
