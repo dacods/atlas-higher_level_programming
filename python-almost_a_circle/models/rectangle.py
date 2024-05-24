@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """Defines a module"""
-Base = __import__('base.py').Base
+import base
 
 
-class Rectangle(Base):
+class Rectangle(base):
     """Definse a class"""
     def __init__(self, width, height, x, y):
         self.__width = width
