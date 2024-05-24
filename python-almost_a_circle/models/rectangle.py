@@ -56,7 +56,7 @@ class Rectangle(Base):
         if not isinstance(y, int):
             raise TypeError("y must be an integer")
         elif y < 0:
-            raise ValueError("x must be >= 0")
+            raise ValueError("y must be >= 0")
         self.__y = y
 
     def __init__(self, width, height, x=0, y=0, id=None):
