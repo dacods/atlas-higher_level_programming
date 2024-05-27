@@ -31,5 +31,5 @@ class Base:
                 file.write("[]")
             else:
                 list_dicts = [obj.to_dictionary() for obj in list_objs]
-                file.write(json.dumps(list_dicts))
+                file.write(cls.to_json_string(list_dicts))
 
