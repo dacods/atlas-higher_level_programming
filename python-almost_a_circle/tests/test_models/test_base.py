@@ -1,4 +1,7 @@
-import json, os, unittest, sys
+import json
+import sys
+import os
+import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 """unit test for base"""
@@ -16,5 +19,4 @@ class BaseTest(unittest.TestCase):
         self.assertEqual(Base.from_json_string('["id": 1]'), [{"id": 1}])
         self.assertEqual(Base.from_json_string(''), [])
         self.assertEqual(Base.from_json_string(None), [])
-    
     
