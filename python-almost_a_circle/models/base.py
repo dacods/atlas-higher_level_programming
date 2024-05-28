@@ -40,6 +40,7 @@ class Base:
         return json.loads(json_string)
     
     def create(cls, **dictionary):
+        """returns an instance with attributes already set"""
         if cls.__name__ == "Rectangle":
             dummy = cls(1, 1)
         elif cls.__name__ == "Square":
