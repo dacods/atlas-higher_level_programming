@@ -7,8 +7,8 @@ from models.rectangle import Rectangle
 class BaseTest(unittest.TestCase):
     def setUp(self):
         """set up"""
-        Base.__Base__nb_objects = 0
-
+        self.base = Base()
+        
     def test_init(self):
         """testing init"""
         base_class = Base()
