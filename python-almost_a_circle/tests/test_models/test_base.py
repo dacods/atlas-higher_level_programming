@@ -13,11 +13,11 @@ class BaseTest(unittest.TestCase):
         """testing init"""
         base_class = Base()
         self.assertEqual(base_class.id, 1)
-    
-    def test_from_json_string(self):
+
+    def test_to_json_string(self):
         """testing from_json_string"""
-        self.assertEqual(Base.from_json_string('[{"id": 1}]'), [{"id": 1}])
-        self.assertEqual(Base.from_json_string(''), [])
-        self.assertEqual(Base.from_json_string(None), [])
+        self.assertEqual(Base.to_json_string('[{"id": 1}]'), [{"id": 1}])
+        self.assertEqual(Base.to_json_string(''), [])
+        self.assertEqual(Base.to_json_string(None), [])
     
     
