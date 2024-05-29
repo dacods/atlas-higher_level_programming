@@ -1,6 +1,6 @@
-import json, os, unittest, sys
 from models.base import Base
 from models.rectangle import Rectangle
+import json, os, unittest, sys
 """unit test for base"""
 
 
@@ -8,7 +8,7 @@ class BaseTest(unittest.TestCase):
     def setUp(self):
         """set up"""
         self.base = Base()
-        
+
     def test_init(self):
         """testing init"""
         base_class = Base()
