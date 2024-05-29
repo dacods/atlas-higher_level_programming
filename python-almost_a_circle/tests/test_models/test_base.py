@@ -1,3 +1,4 @@
+#!/bin/usr/python3
 import json, os, unittest, sys
 from models.base import Base
 from models.rectangle import Rectangle
@@ -19,5 +20,3 @@ class BaseTest(unittest.TestCase):
         self.assertEqual(Base.to_json_string('[{"id": 1}]'), [{"id": 1}])
         self.assertEqual(Base.to_json_string(''), [])
         self.assertEqual(Base.to_json_string(None), [])
-    
-    
