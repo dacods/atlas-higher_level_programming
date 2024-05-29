@@ -13,6 +13,8 @@ class BaseTest(unittest.TestCase):
         """testing init"""
         base_class = Base()
         self.assertEqual(base_class.id, 1)
+        base_class2 = Base()
+        self.assertEqual(base_class2.id, 2)
 
 
 if __name__ == '__main__':
