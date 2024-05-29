@@ -1,4 +1,3 @@
-#!/bin/usr/python3
 import json, os, unittest, sys
 from models.base import Base
 from models.rectangle import Rectangle
