@@ -1,2 +1,2 @@
 -- List all privileges of MySQL users
-SELECT * FROM FN_MY_PERMISSIONS(NULL, 'SERVER');
+SELECT GRANTS FOR user_0d_1, user_0d_2;
