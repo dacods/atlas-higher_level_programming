@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """contains the class definition of a State
 and an instance Base = declarative_base()"""
-from sqlalchmey import Column, Integer, String
-from sqlalchmey.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.ext.declarative import declarative_base
 
 
 Base = declarative_base()
