@@ -19,18 +19,18 @@ class Rectangle {
     }
   }
 
-  rotate() {
+  rotate () {
     if (this.width && this.height) {
-        let temp = this.width;
-        this.width = this.height;
-        this.height = temp;
+      const temp = this.width;
+      this.width = this.height;
+      this.height = temp;
     }
   }
 
-  double() {
+  double () {
     if (this.width && this.height) {
-        this.width *= 2;
-        this.height *= 2;
+      this.width *= 2;
+      this.height *= 2;
     }
   }
 }
