@@ -10,5 +10,5 @@ fs.writeFile(filepath, string, 'utf8', (err) => {
     console.error(err);
     return;
   }
-  console.log('');
+  console.log(string.trim());
 });
