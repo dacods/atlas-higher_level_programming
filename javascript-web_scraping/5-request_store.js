@@ -12,12 +12,5 @@ request(url, (err, response, body) => {
     console.error(err);
     return;
   }
-
-  fs.writeFile(filepath, body, 'utf8', (err) => {
-    if (err) {
-      console.error(err);
-      return;
-    }
-    console.log(`${filepath}`);
-  });
+  fs.writeFile(filepath, body, 'utf8', () => {});
 });
