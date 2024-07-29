@@ -14,9 +14,11 @@ request(url, (err, response, body) => {
 
   todos.forEach(todo => {
     if (todo.completed) {
-      completedTask[todo.userId] = 0;
+      if (!completedTask[todo.userId]) {
+        completedTask[todo.userId] = 0;
+      }
+      completedTask[todo.userId]++;
     }
-    completedTask[todo.userId]++;
   });
   console.log(completedTask);
 });
